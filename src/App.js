@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+// import Contact from './abc/Contact';
 import './App.css';
+import AllPages from './Pages/AllPages/AllPages';
 
 function App() {
   return (
     <div className="App">
-     
-     <h1>Guddu ali portfolio</h1>
+      <AllPages/>
+      {/* <Contact/> */}
     </div>
   );
 }
