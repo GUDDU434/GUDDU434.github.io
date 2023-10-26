@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.416f456f.css",
-    "main.js": "/static/js/main.c0480afb.js",
+    "main.js": "/static/js/main.aef6b2ff.js",
     "static/media/kimaye.png": "/static/media/kimaye.b61cd152c6b0891e28e9.png",
     "static/media/guddu_ali_resume.pdf": "/static/media/guddu_ali_resume.06188b2815e43fc0fb8f.pdf",
     "static/media/kfc.jpg": "/static/media/kfc.61d130bf78650262c744.jpg",
@@ -10,10 +10,10 @@
     "static/media/gudduAli.jpg": "/static/media/gudduAli.6c97ede6c29d76d63154.jpg",
     "index.html": "/index.html",
     "main.416f456f.css.map": "/static/css/main.416f456f.css.map",
-    "main.c0480afb.js.map": "/static/js/main.c0480afb.js.map"
+    "main.aef6b2ff.js.map": "/static/js/main.aef6b2ff.js.map"
   },
   "entrypoints": [
     "static/css/main.416f456f.css",
-    "static/js/main.c0480afb.js"
+    "static/js/main.aef6b2ff.js"
   ]
 }
