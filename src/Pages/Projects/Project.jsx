@@ -105,7 +105,7 @@ const Project = () => {
                 gap="5px"
                 className="project-github-link"
                 onClick={() =>
-                  handleclick("https://github.com/CodEsHiVaz/kfc-clone-react")
+                  handleclick("https://github.com/GUDDU434/kfc-clone-react")
                 }
               >
                 Repo <AiOutlineGithub />
@@ -179,7 +179,7 @@ const Project = () => {
                 gap="5px"
                 className="project-github-link"
                 onClick={() =>
-                  handleclick("https://github.com/Arfeen98/MamaEarthclone")
+                  handleclick("https://github.com/GUDDU434/MamaEarthclone")
                 }
               >
                 Repo <AiOutlineGithub />
