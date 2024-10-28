@@ -1,32 +1,29 @@
-import React, { useState } from "react";
-import "./contact.css";
 import {
   Box,
-  Text,
-  useColorModeValue,
-  Image,
-  Stack,
-  Input,
   Button,
-  Textarea,
-  useClipboard,
-  Tooltip,
-  Link,
   IconButton,
+  Image,
+  Input,
+  Link,
+  Stack,
+  Text,
+  Textarea,
+  Tooltip,
+  useClipboard,
+  useColorModeValue,
   useToast,
 } from "@chakra-ui/react";
-import { MdPhone, MdEmail } from "react-icons/md";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { useForm, ValidationError } from "@formspree/react";
+import React from "react";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { MdEmail, MdPhone } from "react-icons/md";
+import "./contact.css";
 
 
 
 const Contact = () => {
   const { hasCopied, onCopy } = useClipboard("gudduali93@yahoo.com");
   const { hasCopy, onCopyMo } = useClipboard("+91 8169269136");
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
   const [state, handleSubmit, ResetFunction] = useForm("mzbqrgzo");
   const toast = useToast()
   if (state.succeeded) {

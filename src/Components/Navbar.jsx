@@ -35,7 +35,7 @@ const Navbar = () => {
             <Image
               cursor={"pointer"}
               src={img}
-              w={{ base: "28%", md: "25%", lg:"35%" }}
+              w={{ base: "28%", md: "25%", lg: "35%" }}
               borderRadius={"40px"}
               margin={{ base: "2px", md: "1px", lg: "5px" }}
             />
@@ -66,6 +66,14 @@ const Navbar = () => {
               className="nav-link skills"
             >
               <Button>Skills</Button>
+            </Link>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              className="nav-link experiences"
+            >
+              <Button>Experiences</Button>
             </Link>
             <Link
               to="project"

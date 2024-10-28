@@ -7,29 +7,22 @@ import Github from '../Github/Github'
 import Home from '../Home/Home'
 import Project from '../Projects/Project'
 import Skills from '../Skills/Skills'
+import Experience from '../Experience/Experience'
 
 const AllPages = () => {
   return (
     <>
-      
-        <Navbar/>
-        
-        <Home/>
-     
-        <About/>
-     
-        <Skills/>
-     
-        <Github/>
-    
-      <Project/>
-    
-      <Contact/>
-      
-        <Footer/>
-      
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Github />
+      <Experience/>
+      <Project />
+      <Contact />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default AllPages

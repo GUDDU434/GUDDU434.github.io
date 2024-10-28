@@ -42,12 +42,14 @@ const About = () => {
               fontSize={{ base: "15px", md: "20px", lg: "23px" }}
               id="user-detail-intro"
             >
-              A highly motivated Software Engineer with one year of valuable experience
-              specializing in backend development. Proficient in an extensive array of
-              technologies, including Golang, MySQL, Node.js, Express.js, React.js, and MongoDB.
-              A good problem solver, collaborative, and a team player. Looking for an opportunity
-              in a tech organization to showcase or enhance my technical skill and to improve my
-              technical knowledge with the success of organization.
+              Dynamic Full Stack Software Developer with 2+ years of hands-on
+              experience, ready to make an impact! Specializing in a diverse
+              tech stack, including Golang, MySQL, Node.js, Express.js,
+              React.js, MongoDB, AWS-EC2, , and CI/CD with Jenkins, I thrive on
+              tackling challenges and delivering innovative solutions. As a
+              collaborative team player and adept problem solver, I’m passionate
+              about enhancing my skills and contributing to a forward-thinking
+              tech organization.
             </Text>
           </Box>
         </Box>
