@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.416f456f.css",
-    "main.js": "/static/js/main.aef6b2ff.js",
+    "main.js": "/static/js/main.830e678c.js",
     "static/media/kimaye.png": "/static/media/kimaye.b61cd152c6b0891e28e9.png",
-    "static/media/guddu_ali_resume.pdf": "/static/media/guddu_ali_resume.06188b2815e43fc0fb8f.pdf",
+    "static/media/sjs.png": "/static/media/sjs.e4ae761904ced98e83dd.png",
     "static/media/kfc.jpg": "/static/media/kfc.61d130bf78650262c744.jpg",
-    "static/media/bigBasket.jpg": "/static/media/bigBasket.65f68baa45f7a080b768.jpg",
     "static/media/mamaEarth.jpg": "/static/media/mamaEarth.d7c762ea5ebf2aba6748.jpg",
+    "static/media/guddu_ali_resume.pdf": "/static/media/guddu_ali_resume.bb1f669cfdb758788c04.pdf",
     "static/media/gudduAli.jpg": "/static/media/gudduAli.6c97ede6c29d76d63154.jpg",
     "index.html": "/index.html",
     "main.416f456f.css.map": "/static/css/main.416f456f.css.map",
-    "main.aef6b2ff.js.map": "/static/js/main.aef6b2ff.js.map"
+    "main.830e678c.js.map": "/static/js/main.830e678c.js.map"
   },
   "entrypoints": [
     "static/css/main.416f456f.css",
-    "static/js/main.aef6b2ff.js"
+    "static/js/main.830e678c.js"
   ]
 }
