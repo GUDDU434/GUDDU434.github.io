@@ -10,16 +10,22 @@ const Skills = () => {
     <>
       <Box
         id="skills"
-        pt={{ base: '55px', md: "55px", lg: "55px" }}
+        pt={{ base: "55px", md: "55px", lg: "55px" }}
         name="skills"
-        bg={useColorModeValue("blue.800", "")} pb={"30px"}>
+        bg={useColorModeValue("blue.800", "")}
+        pb={"30px"}
+      >
         <Box
-
           w={{ base: "90%", md: "90%", lg: "90%" }}
           m={{ base: "20px auto", md: "20px auto", lg: "50px auto" }}
         >
-          <Text fontSize={{ base: "30px", md: "30px", lg: "50px" }}
-            color={useColorModeValue("white", "")} fontWeight={'500'}>My Technical Skills</Text>
+          <Text
+            fontSize={{ base: "30px", md: "30px", lg: "50px" }}
+            color={useColorModeValue("white", "")}
+            fontWeight={"500"}
+          >
+            My Technical Skills
+          </Text>
 
           <Marquee
             gradient={false}
@@ -225,19 +231,21 @@ const Skills = () => {
                 />
                 <Text className="skills-card-name">MongoDB</Text>
               </Box>
-
             </Box>
           </Marquee>
-
         </Box>
 
         <Box
-
           w={{ base: "90%", md: "90%", lg: "80%" }}
           m={{ base: "20px auto", md: "20px auto", lg: "50px auto" }}
         >
-          <Text fontWeight={'500'} fontSize={{ base: "30px", md: "30px", lg: "50px" }}
-            color={useColorModeValue("white", "")}>Tools</Text>
+          <Text
+            fontWeight={"500"}
+            fontSize={{ base: "30px", md: "30px", lg: "50px" }}
+            color={useColorModeValue("white", "")}
+          >
+            Tools
+          </Text>
 
           <Marquee
             gradient={false}
@@ -256,8 +264,6 @@ const Skills = () => {
               // bg={useColorModeValue('white',"")}
               m={{ base: "10px", md: "10px", lg: "19px" }}
             >
-
-
               {/* -------------vs-------------- */}
               <Box
                 className="skills-card"
@@ -311,7 +317,7 @@ const Skills = () => {
                   width={"100%"}
                   height={"70%"}
                   mb={"14px"}
-                  src="https://camo.githubusercontent.com/6c10a8bff81bb32c29f35514bf2a2bcb434398b49a8a2a4b18343ae710ccd2f8/68747470733a2f2f6272616e646570732e636f6d2f6c6f676f2d646f776e6c6f61642f4e2f4e706d2d6c6f676f2d766563746f722d30312e737667"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWgAAACMCAMAAABmmcPHAAAAM1BMVEX////LODfLNjXOREPNQD///PzHFhTORUXLMzHKMzLLLy7RUlHGEQ/HGRfNQkHQT0/HDAhqMq7GAAACcElEQVR4nO3d21LjMBAAUa1tCAnE7P9/7e4zGttyzaS5dT9LjHRIFVXk1v4YUvvsA/yWhIYSGkpoKKGhhIYSGkpoKKGhhIYSGkpoKKGhhIYSGkpoKKGhQuipuJ8yI3OWCHpaigsmTyswo3hE5iwR9HRpxV36yffqGWs3Y1qrZ4wW3DeEnqsHz/3g5+oZ/cNoWqpnjBbcV+hHJDSU0FBCQwkNJTSU0FBCQwkNJTSU0FBCQwkNJTSU0FBCQwkNJTRUOfTt8rH5dXDwMPTr3A25Resy0O/djPk9Wpe4bw76rXui/RpeLgO9XLshb+G6BHQ/I75H4r456OfBvRno0b0p6MG9ifsKfWav0E3orcFCCy200EIfnlnoM3uFbkJvDRZaaKGFFvrwzEKf2St0E3prsNBCCy200IdnFvrMXqGb0FuDhRZaaKGFPjyz0Gf2Ct2E3hostNBCCy304ZmFPrNX6Cb01mChhRZa6EdCr/2bhYR+BPRye/nY33Cd0F//DZ1Cn0joeLDQQgu9m9DxYKGFFno3oePBQgst9G5Cx4OFFlro3YSOBwsttNC7CR0PFlroLwh9/2XQifvGXxzZfQTnRsHPC/cG6zKfTZo6S/E9Rtflvgp1dG+wLPNyg9RZiu8xvO6zvtw38wKab5nQUEJDCQ0lNJTQUEJDCQ0lNJTQUEJDCQ0lNJTQUEJDCQ3VRv85nimYm4ImzlwdAh1Y3Uehg+eFkCNX156ArgHWuowV/pKIQxc3+sDKFEFnns8rfwb9p/T0UvsHTeiNhIYSGkpoKKGhhIYSGkpoKKGhhIYSGkpoKKGhhIYSGkpoKKGhhP7fP8DIilv0a9Z/AAAAAElFTkSuQmCC"
                   alt="npm"
                 />
                 <Text className="skills-card-name">npm</Text>
@@ -331,7 +337,7 @@ const Skills = () => {
                   width={"100%"}
                   height={"70%"}
                   mb={"14px"}
-                  src="https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667"
+                  src="https://www.svgrepo.com/show/354202/postman-icon.svg"
                   alt="postman"
                 />
                 <Text className="skills-card-name">Postman</Text>
@@ -393,8 +399,8 @@ const Skills = () => {
                 />
                 <Text className="skills-card-name">Material UI</Text>
               </Box>
-                            {/* ------Notion----------- */}
-                            <Box
+              {/* ------Notion----------- */}
+              <Box
                 className="skills-card"
                 bg={useColorModeValue("white", "gray.700")}
                 boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
@@ -414,7 +420,6 @@ const Skills = () => {
               </Box>
             </Box>
           </Marquee>
-
         </Box>
       </Box>
     </>

@@ -53,7 +53,13 @@ const Project = () => {
           p={"10px"}
           borderRadius={"10px"}
         >
-          <Image borderRadius={"10px"} src={img4} alt="pro1" />
+          <Image
+            height={"250px"}
+            width={"100%"}
+            borderRadius={"10px"}
+            src={img4}
+            alt="pro1"
+          />
           <Text
             className="project-title"
             color={useColorModeValue("white", "")}
@@ -127,7 +133,13 @@ const Project = () => {
           p={"10px"}
           borderRadius={"10px"}
         >
-          <Image borderRadius={"10px"} src={img1} alt="pro1" />
+          <Image
+            height={"250px"}
+            width={"100%"}
+            borderRadius={"10px"}
+            src={img1}
+            alt="pro1"
+          />
           <Text
             className="project-title"
             color={useColorModeValue("white", "")}
@@ -201,7 +213,13 @@ const Project = () => {
           p={"10px"}
           borderRadius={"10px"}
         >
-          <Image borderRadius={"10px"} src={img2} alt="pro1" />
+          <Image
+            height={"250px"}
+            width={"100%"}
+            borderRadius={"10px"}
+            src={img2}
+            alt="pro1"
+          />
           <Text
             className="project-title"
             color={useColorModeValue("white", "")}
@@ -277,8 +295,8 @@ const Project = () => {
         >
           <Image
             borderRadius={"10px"}
-            h={"205px"}
-            w={"100%"}
+            height={"250px"}
+            width={"100%"}
             src={img3}
             alt="pro1"
           />
